@@ -87,7 +87,7 @@ const Home = ({navigation}) => {
         }}
       />
       {/* <Icon name="ios-home" size={20} style={{alignSelf: 'center'}} /> */}
-      <MultiActionButton
+      {/* <MultiActionButton
         iconName="md-add"
         bottom={20}
         right={10}
@@ -114,7 +114,7 @@ const Home = ({navigation}) => {
             label: 'Send email',
           },
         ]}
-      />
+      /> */}
       <TimeTableView
         // scrollViewRef={this.scrollViewRef}
         events={events_data}
